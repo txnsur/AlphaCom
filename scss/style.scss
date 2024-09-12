@@ -1,9 +1,12 @@
 /******* Bootstrap Theming ********/
 
-$primary: #FF4800;
-$secondary: #F2F2F4;
-$light: #FFFFFF;
+$primary: #E88D67;
+$secondary: #F3F7EC;
+$tertiary: #006989;
+$fourth: #005C78;
+$light: #006989;
 $dark: #1F1F2E;
+$footerbg: #006989;
 
 $font-family-sans-serif: 'Poppins', sans-serif;
 
@@ -19,6 +22,19 @@ $enable-rounded: false;
 
 
 /********** Template CSS ************/
+
+.bg-footerbg {
+    background-color: $footerbg;
+}
+
+.bg-tertiary{
+    background-color: $tertiary;
+}
+
+.bg-fourth{
+    background-color: $fourth;
+}
+
 .font-weight-black {
     font-weight: 900 !important;
 }
